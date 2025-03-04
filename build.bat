@@ -11,5 +11,6 @@ cmake .
 cmake --build . 
 
 if "%param1%" == "run" (
-    "F:\Developpement\C++\hacklib\bin64\ldr.exe" -pname lghub_agent.exe -lib F:\Developpement\C++\lgpro\Debug\LGProLib.dll 
+    @REM "F:\Developpement\C++\hacklib\bin64\ldr.exe" -pname lghub_agent.exe -lib F:\Developpement\C++\lgpro\Debug\LGProLib.dll 
+    "./Debug/LGPro.exe"
 )
